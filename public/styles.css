@@ -1,0 +1,27 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 9%; 
+    height: auto; 
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Add CSS rules to display modal content left to right */
+.w3-modal-content {
+    display: flex;
+}
+
+.modal-image {
+    flex: 0 0 50%; /* Take up 50% width */
+    margin-right: 20px; /* Add margin for spacing */
+}
+
+.modal-text {
+    flex: 1; /* Take up remaining space */
+}
+
